@@ -7,7 +7,8 @@
 	<key>command</key>
 	<string>#!/usr/bin/env sh
 
-open "http://localhost:8888/"</string>
+echo "&lt;meta http-equiv='Refresh' content='0;URL=http://localhost:8888/'&gt;"
+</string>
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>
@@ -15,7 +16,7 @@ open "http://localhost:8888/"</string>
 	<key>name</key>
 	<string>Run Examples</string>
 	<key>output</key>
-	<string>showAsTooltip</string>
+	<string>showAsHTML</string>
 	<key>scope</key>
 	<string>source.js.jasmine</string>
 	<key>uuid</key>
