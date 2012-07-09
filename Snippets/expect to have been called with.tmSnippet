@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>expect(${1:target}).wasNotCalledWith(${2:arguments});</string>
+	<string>expect(${1:target}).toHaveBeenCalledWith(${2:arguments});</string>
 	<key>name</key>
-	<string>expect was not called with</string>
+	<string>expect to have been called with</string>
 	<key>scope</key>
 	<string>source.js.jasmine</string>
 	<key>tabTrigger</key>
-	<string>notscw</string>
+	<string>escw</string>
 	<key>uuid</key>
-	<string>121D8CB2-87C8-4FAC-AA4C-E825845CDDE5</string>
+	<string>09DDCEC4-5548-4926-81D0-0B89F36E5780</string>
 </dict>
 </plist>
